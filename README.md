@@ -1,5 +1,5 @@
 # 00-Gauge-block-signalling-control
-micromite based control of model railway signalling based on UK Network Rail main line practices
+Micromite based control of model railway signalling based on UK Network Rail main line practices.
 The idea is to use a Maximite to set up train routings. Points and corresponding signals are pre-allocated according to the route to be followed.
 This data is then downloaded over I2C bus to various micromite controllers used to locally drive the points motors (SG90 servos) and either semaphore
 arm signals or 4-lamp signals depending on where they are on the layout.  In some locations the 4 lamp signals will be facing away from the control postion
